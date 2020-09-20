@@ -24,9 +24,9 @@ describe('popover', () => {
 
     browser = await puppetteer.launch({
       // Опции в методе launch нужно закомментировать при запуске в CI.
-      headless: false, // show gui
-      slowMo: 500,
-      devtools: true, // show devTools
+      // headless: false, // show gui
+      // slowMo: 500,
+      // devtools: true, // show devTools
     });
     page = await browser.newPage();
   });
